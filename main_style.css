@@ -1,0 +1,46 @@
+body {
+    background-color: #d8d4d4;
+    /*background-size: 2136px 1424px ;*/
+}
+.list-item {
+    padding: 15px;
+    width: 100%;
+}
+.list-item p,a,h1,h2,h3,h4,h5,h6 {
+    display: inline;
+}
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+.list-item img {
+    max-height: 100px;
+    max-width: 500px;
+}
+.list-item td {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+}
+.list-item table {
+    width: 100%;
+}
+.navbar li {
+    padding-right: 50px;
+}
+.navbar-left {
+    width: 200px;
+    height: 100%;
+}
+.navbar-default {
+    background-color: #6dcef8;
+}
+p, a {
+    font-size: 125%;
+    font-weight: 600;
+}
+hr {
+    border-color: black;
+    margin: 1px;
+}
