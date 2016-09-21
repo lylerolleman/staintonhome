@@ -26,7 +26,7 @@
         
         </div>
         <hr>
-        <div class="container">
+        <div class="container-fluid">
             <?php
                 $path = $_SERVER['DOCUMENT_ROOT'];
                 $path .= "/navbar.php";
@@ -37,7 +37,7 @@
         <nav class="navbar navbar-default navbar-left">
             
                 <ul class="nav navbar-nav">
-                    
+                    <li><a id="main" href="/gallery/gallery.php">The Property</a></li>
                     <li><a id="entry" href="/gallery/gallery.php?target=entry">Entry Way</a></li>
                     <li><a id="kitchen" href="/gallery/gallery.php?target=kitchen">Kitchen</a></li>
                     <li><a id="greatroom" href="/gallery/gallery.php?target=greatroom">Living Room</a></li>
